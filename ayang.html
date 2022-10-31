@@ -76,7 +76,7 @@
        <p id="pesan7" class="gaya2">Kamu wanita kuat udah tetap bertahan sampe saat ini, tetap seperti ini terus ya, di keadaan apapun ku tetep ada ko buat kamu, siap direpotin ayang!!!</p>
 
        <p id="pesan8" class="gaya2">Canda wkwwk :v</p>
-       <p id="pesan9" class="gaya2">Oh iya, semoga di hari spesialmu ini kamu dapat menjadi pribadi yang lebih baik yaa.. </p>
+       <p id="pesan9" class="gaya2">Oh iya, semoga di hari spesialmu ini kamu dapat menjadi pribadi yang lebih baik yaa, semoga semua kebaikan selalu ada buat kamu</p>
        <p id="pesan10" class="gaya2">Happy Level Up Day!! </p>
 
        <!-- Tombol Lanjut -->
@@ -108,7 +108,7 @@
        });
        if(nama && nama.length < 11){
          window.nama = nama;
-         vketikhalo="Hai, " + nama + "";
+         vketikhalo="Hai, " + nama + "&#9829;";
          mulainama();
          } else {
            await swals.fire('Ups!', 'Nama tidak boleh kosong atau lebih dari 10 karakter, ya!');inipesan();
@@ -121,7 +121,7 @@
   var tompositif = 'Mau';
   var tomnegatif = 'Engga';
     
-    async function menuju(){pesanwhatsapp = "Makasii udah ngucapin " + nama + " ultah ><";await swals.fire('ada sesuatu ni tapi download dulu, trus buka di komputer ya, ga bakal kenapa² ko yakin sama gue', 'success');window.location = "https://drive.google.com/u/0/uc?id=1xwTHBB7Z0yKmrVFdn7ebRh9ApHu6BB2C&export=download" + pesanwhatsapp;}
+    async function menuju(){pesanwhatsapp = "tekan satu untuk minta";await swals.fire('OK!', 'ada sesuatu ni buat kamu, ke WhatsApp aku, ya!', 'success');window.location = "https://api.whatsapp.com/send?phone=6285155234345&text=" + pesanwhatsapp;}
 </script>
 <script src="https://feeldreams.github.io/heihbd/script.js"></script>
 <!-- Sampai Sini -->
