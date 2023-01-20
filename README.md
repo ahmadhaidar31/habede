@@ -1,2 +1,0 @@
-# habede
-Ulang tahun
